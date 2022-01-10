@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokedex</title>
+    <meta name="description" content="Pokedex with all the information you need about your recently-cought friends!">
+    <meta name="Amelia W." content="Pokedex">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div id="container">
+    <header id="logo">
+        <a href="#"><img src="logo.png" alt="pokemon logo"></a>
+    </header>
+    <nav id="menu">
+            <ul>
+            <a id="menu1" href="#"><li id="but1"><img src="icons/pokeball.svg" style="width:30px; height:30px; margin: 10px;">Pokemon types</li></a>
+            <a id="menu2" href="#"><li id="but2"><img src="icons/pokemonzapdos.svg" style="width:30px; height:30px; margin: 6px;">Training cards</li></a>
+            <a id="menu3" href="#"><li id="but3"><img src="icons/bellsprout.svg" style="width:30px; height:30px; margin: 10px;">Pokemon GO</li></a>
+            <a id="menu4" href="#"><li id="but4"><img src="icons/bulbasaur.svg" style="width:30px; height:30px; margin: 10px;">Pokemon B&D</li></a>
+            <a id="menu5" href="#"><li id="but5"><img src="icons/dratini.svg" style="width:30px; height:30px; margin-right: 5px;">Fanarts</li></a>
+            <a id="menu6" href="#"><li id="but6"><img src="icons/b&d.svg" style="width:35px; height:35px; margin-right: 5px; margin: 5px 0px 10px -5px;">News</li></a>
+            </ul>
+    </nav>
+    <hr style="background-color: red; clear:both;">
+    <div id="main_container">
+        <nav id="search">
+            <input type="text" placeholder="Search..">
+            <div id="random_pocs">
+            </div>
+        </nav>
+        <main>
+            <section id="main_pok">
+               <h1>Pokemon of the day!</h1>
+                <img id="pokpic" src="gliscor.png" alt="gliscor">
+                <p>It observes prey while hanging inverted from branches. </br>
+                    When the chance presents itself, it swoops!</p>
+                <div id="pok_stats">
+                    <ul>
+                        <li>Height</li>
+                        <li>Weight</li>
+                    </ul>
+                    <ul id="second_ul">
+                        <li>Category</li>
+                        <li>Abilities</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

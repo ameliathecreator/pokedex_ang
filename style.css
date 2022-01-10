@@ -1,0 +1,196 @@
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed
+}
+#container {
+    background-color: #e4d0b5;
+    border: 1px solid black;
+    margin: auto;
+    width: 58%;
+    margin-top: 15px;
+    min-height: 1000px;
+}
+#logo {
+    float: left;
+    margin: 15px 0px 0px 36px;
+}
+#menu ul {
+    list-style-type: none;
+    float: left;
+    font-size: 24px;
+    margin: 0;
+}
+#menu li {
+    width: 130px;
+    height: 75px;
+    padding: 1px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+#menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'VT323', monospace;
+}
+#but1 {
+    border-bottom: 5px solid red;
+}
+#menu1 :hover {
+    background-color: red;
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#but2 {
+    border-bottom: 5px solid orange;
+}
+#menu2 :hover {
+    background-color: orange;
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#but3 {
+    border-bottom: 5px solid yellow;
+}
+#menu3 :hover {
+    background-color: yellow;
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#but4 {
+    border-bottom: 5px solid lightgreen;
+}
+#menu4 :hover {
+    background-color: lightgreen;
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#but5 {
+    border-bottom: 5px solid rgb(80, 178, 240);
+}
+#menu5 :hover {
+    background-color: rgb(80, 178, 240);
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#but6 {
+    border-bottom: 5px solid rgb(196, 121, 196);
+    height: 70px;
+}
+#menu6 :hover {
+    background-color: rgb(196, 121, 196);
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
+}
+#main_container {
+    margin-top: -5px;
+}
+#search {
+    float: right;
+    margin-right: 44px;
+}
+#search input[type=text] {
+    border: 1px solid rgb(235, 170, 170);  
+    width: 200px;
+}
+#random_pocs {
+    
+}
+#main_pok {
+    width: 800px;
+    border-right: 1px solid black;
+}
+#pokday {
+    display: block;
+    margin: 15px;
+}
+#pokpic {
+    width: 350px;
+    height: 350px;
+    margin: 0px 0px 0px 30px;
+    border-radius: 5px;
+    background-color: #d3bfa5;
+}
+h1 {
+    text-align: center;
+    line-height: 0;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+}
+h1::first-letter {
+    color: red;
+}
+#main_pok p {
+    float: right;
+    margin-right: 30px;
+    font-family: 'Abel', sans-serif;
+}
+#pok_stats {
+    float: right;
+    position: absolute;
+    top: 235px;
+    left: 843px;
+    background-color: cadetblue;
+    width: 330px;
+    border-radius: 5px;
+}
+#pok_stats ul {
+    list-style-type: none;
+    display: inline-block;
+}
+#pok_stats li {
+    margin: 0;
+}
+#second_ul {
+    float: right;
+}
