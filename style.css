@@ -7,9 +7,8 @@ body{
 #container {
     background-color: #e4d0b5;
     border: 1px solid black;
-    margin: auto;
+    margin: 15px auto auto auto;
     width: 58%;
-    margin-top: 15px;
     min-height: 1000px;
 }
 #logo {
@@ -138,17 +137,43 @@ body{
 #search {
     float: right;
     margin-right: 44px;
+    margin-top: 15px;
 }
 #search input[type=text] {
-    border: 1px solid rgb(235, 170, 170);  
+    border: 1px solid rgb(116, 36, 36);  
     width: 200px;
 }
 #random_pocs {
+    width: 206px;
+    margin-top: 10px;
+    text-align: center;
+    word-spacing: 10px;
+    font-family: 'Abel', sans-serif;
+    cursor: pointer;
     
+}
+#random_pocs img {
+    border: 1px solid #aa9b86;
+    width:90px; 
+    height: 90px;
+}
+#random_pocs a :hover {
+    background-color: #d3bfa5;
+    border-radius: 10px;
+    -webkit-transition: .15s all;   
+    -webkit-transition-delay: 0.15s; 
+    -moz-transition: .15s all;   
+    -moz-transition-delay: .15s; 
+    -ms-transition: .15s all;   
+    -ms-transition-delay: 0.15s; 
+    -o-transition: .15s all;   
+    -o-transition-delay: 0.15s; 
+    transition: .15s all;   
+    transition-delay: 0.15s; 
 }
 #main_pok {
     width: 800px;
-    border-right: 1px solid black;
+    border-right: 1px solid grey;
 }
 #pokday {
     display: block;
@@ -163,34 +188,45 @@ body{
 }
 h1 {
     text-align: center;
-    line-height: 0;
+    line-height: 20px;
     font-family: 'VT323', monospace;
     font-size: 40px;
 }
-h1::first-letter {
-    color: red;
-}
-#main_pok p {
-    float: right;
-    margin-right: 30px;
-    font-family: 'Abel', sans-serif;
+p {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0px 20px 0px 20px;
 }
 #pok_stats {
     float: right;
-    position: absolute;
-    top: 235px;
-    left: 843px;
-    background-color: cadetblue;
-    width: 330px;
+    width: 380px;
     border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+}
+#description {
+    background-color: #d3bfa5;
+    width: 380px;
+    margin: 0px;
+    border-radius: 2px;
+    display: block;
+    font-family: 'Abel', sans-serif;
 }
 #pok_stats ul {
     list-style-type: none;
-    display: inline-block;
+    text-align: justify;
+    background-color: #d3bfa5;
 }
 #pok_stats li {
-    margin: 0;
+    display: inline-flexbox;
 }
-#second_ul {
+.right {
+    float: right;
+}
+#height_weight {
+    
+}
+
+#category_abilities {
     float: right;
 }
