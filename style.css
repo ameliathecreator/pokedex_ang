@@ -9,7 +9,7 @@ body{
     border: 1px solid black;
     margin: 15px auto auto auto;
     width: 58%;
-    min-height: 1000px;
+    min-height: 800px;
 }
 #logo {
     float: left;
@@ -133,6 +133,7 @@ body{
 }
 #main_container {
     margin-top: -5px;
+    min-height: 800px;
 }
 #search {
     float: right;
@@ -174,6 +175,7 @@ body{
 #main_pok {
     width: 800px;
     border-right: 1px solid grey;
+    margin-top: -10px;
 }
 #pokday {
     display: block;
@@ -197,12 +199,14 @@ p {
     font-family: 'PT Sans', sans-serif;
     margin: 0px 20px 0px 20px;
 }
+a {
+    text-decoration: none;
+}
 #pok_stats {
     float: right;
     width: 380px;
     border-radius: 5px;
     margin-right: 20px;
-    text-align: center;
 }
 #description {
     background-color: #d3bfa5;
@@ -211,22 +215,21 @@ p {
     border-radius: 2px;
     display: block;
     font-family: 'Abel', sans-serif;
+    text-align: center;
 }
 #pok_stats ul {
     list-style-type: none;
-    text-align: justify;
-    background-color: #d3bfa5;
+    margin: 10px -10px -10px -20px;
+    display: inline-block;
+    font-family: 'Ubuntu Mono', monospace;
 }
 #pok_stats li {
-    display: inline-flexbox;
+    margin: 10px 0 0 0;
 }
-.right {
-    float: right;
+#type h4 {
+    line-height: 0px;
+    font-family: 'Orbitron', sans-serif;
 }
-#height_weight {
-    
-}
-
-#category_abilities {
-    float: right;
+#type img {
+    margin: -2px;
 }
