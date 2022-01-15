@@ -9,7 +9,6 @@ body{
     border: 1px solid black;
     margin: 15px auto auto auto;
     width: 58%;
-    min-height: 800px;
 }
 #logo {
     float: left;
@@ -133,7 +132,7 @@ body{
 }
 #main_container {
     margin-top: -5px;
-    min-height: 800px;
+    min-height: 600px;
 }
 #search {
     float: right;
@@ -233,8 +232,26 @@ a {
 #type img {
     margin: -2px;
 }
+#date {
+    margin: 0;
+}
+article{
+    width: 750px;
+    margin-left: 50px;
+    border-right: 1px solid grey;
+    text-align: none;
+}
+h5 {
+    font-size: 18px;
+    
+}
+footer {
+    background-color: #cfbba1;
+}
 footer ol {
     list-style-type: disc;
+    margin: 0;
+    display: inline-block;
 }
 footer a {
     text-decoration: none;
