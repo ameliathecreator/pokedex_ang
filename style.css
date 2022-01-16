@@ -132,7 +132,7 @@ body{
 }
 #main_container {
     margin-top: -5px;
-    min-height: 600px;
+    min-height: 100%;
 }
 #search {
     float: right;
@@ -233,20 +233,100 @@ a {
     margin: -2px;
 }
 #date {
-    margin: 0;
+    color: rgb(133, 123, 105);
 }
-article{
-    width: 750px;
-    margin-left: 50px;
-    border-right: 1px solid grey;
+#news_article {
+    width: 520px;
+    padding-left: 35px;
+    padding-right: 35px;
     text-align: none;
+    float: left;
+    font-family: 'PT Sans', sans-serif;
 }
-h5 {
-    font-size: 18px;
-    
+blockquote {
+    font-size: 17px;
+    font-family: 'Russo One', sans-serif;
+    color: rgb(187, 129, 81);
+    margin-bottom: -10px;
+}
+#slider {
+    float: right;
+    margin-right: 5px;
+    width: 492px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+#img_slider {
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-right: 5px;
+}
+.slider_images {
+    display: flex;
+    transform: translateX(0);
+    transition: 0.25s;
+}
+.slider_button {
+    background: rgb(74, 72, 224);
+    border: 0;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 2.5em;
+    width: 2.5em;
+    opacity: 0.25;
+    position: absolute;
+    transition: 0.25;
+    z-index: 1;
+}
+.previous {
+    left: 5px;
+}
+.next {
+    right: 5px;
+}
+.previous:hover, .next:hover {
+    opacity: 0.5;
+}
+#news_article a, #text_1 a {
+    color: rgb(187, 129, 81);
+    text-decoration: none;
+}
+#news_article a:hover, #text_1 a:hover {
+    color: white;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:12px 26px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+    margin-top: 15px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 footer {
     background-color: #cfbba1;
+    clear: both;
+    text-align: center;
 }
 footer ol {
     list-style-type: disc;

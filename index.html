@@ -6,7 +6,7 @@
     <title>Pokedex</title>
     <meta name="description" content="Pokedex with all the information you need about your recently-cought friends!">
     <meta name="Amelia W." content="Pokedex">
-
+    <script src="script.js" type="text/js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -92,22 +93,38 @@
             </div>
             </section>
             <hr style="background-color: red;">
-            <article>
-                
-                <span id="date">data</span>
-                <h1 style="letter-spacing: 2px; font-size: 30px;">What's new?</h1>
-                <h5>Watch Bidoof in Action in the New Bidoof’s Big Stand Short</h5>
+            <article id="news_article">
+                <span id="date">16 January 2022</span>
+                <h1 style="letter-spacing: 2px; font-size: 30px;">WHAT'S NEW?</h1>
+                <span>Watch Bidoof in Action in the New Bidoof’s Big Stand Short!</span>
                 <div id="article_text">
-                <p>Bidoofery abounds in this new animated adventure starring the lovable Pokémon, now on Pokémon TV and YouTube.
-                Bidoof Day just wasn't enough! Thankfully, the lovable Pokémon is back for more fun in Bidoof's Big Stand, a new animated short 
-                that's available now on Pokémon TV and the official Pokémon YouTube channel. See Bidoof trip, chew, and roll its way into adventure.</br></br>
+                <blockquote>Bidoofery abounds in this new animated adventure starring the lovable Pokémon, now on Pokémon TV and YouTube.</blockquote></br></br>
+                <span>Bidoof Day just wasn't enough! Thankfully, the lovable Pokémon is back for more fun in Bidoof's Big Stand, a new animated short 
+                that's available now on <a href="https://watch.pokemon.com/en-us/#/" target="_blank" rel="noopener noreferrer">Pokémon TV</a> and the <a href="https://www.youtube.com/user/pokemon" target="_blank" rel="noopener noreferrer">
+                official Pokémon YouTube channel</a>. See Bidoof trip, chew, and roll its way into adventure.</br></br>
 
                 You can even get your groove on with Bidoof by playing the “Bidoof's Big Stand” playlist on Spotify. 
-                Now you can enjoy Bidoof-inspired tunes whenever you choose. </br></br>
-
-                Catch Bidoof's Big Stand on Pokémon TV and YouTube. The Pokémon TV app is now available for Nintendo Switch!</p>
+                Now you can enjoy Bidoof-inspired tunes whenever you choose. </br></br></span>
                 </div>
             </article>
+            <aside id="slider">
+                <div id="img_slider">
+                    <button class="slider_button previous" id="previous"><</button>
+                    <div class="slider_images">
+                        <img src="pictures/bidoofslajd1.png" alt="bidoof" style="width:490px; margin-bottom: 2px;">
+                        <img src="pictures/bidoofslajd2.png" alt="bidoof" style="width:490px; margin-bottom: 2px;">
+                        <img src="pictures/bidoofslajd3.png" alt="bidoof" style="width:490px; margin-bottom: 2px;">
+                        <img src="pictures/bidoofslajd4.png" alt="bidoof" style="width:490px; margin-bottom: 2px;">
+                        <img src="pictures/bidoofslajd5.png" alt="bidoof" style="width:490px; margin-bottom: 2px;">
+                    </div>
+                    <button class="slider_button next" id="next">></button>
+                </div>
+
+                <span id=text_1> Catch Bidoof's Big Stand on <a href="https://watch.pokemon.com/en-us/#/" target="_blank" rel="noopener noreferrer">Pokémon TV</a> 
+                and <a href="https://www.youtube.com/user/pokemon" target="_blank" rel="noopener noreferrer">YouTube</a>. 
+                The Pokémon TV app is now available for <a href="https://www.pokemon.com/us/pokemon-news/pokemon-tv-app-available-now-on-nintendo-switch/" target="_blank" rel="noopener noreferrer">Nintendo Switch!</a></span></br>
+                <a href="news.html" class="myButton">Click for more news!</a>
+            </aside>
         </main>
         <footer>
             <hr style="background-color: red;">
@@ -121,6 +138,6 @@
         </footer>
     </div>
 </div>
-<script src="script.js"></script>
+
 </body>
 </html>
