@@ -132,7 +132,7 @@ body{
 }
 #main_container {
     margin-top: -5px;
-    min-height: 100%;
+    min-height: 1100px;
 }
 #search {
     float: right;
@@ -324,14 +324,34 @@ blockquote {
 	top:1px;
 }
 footer {
-    background-color: #cfbba1;
     clear: both;
-    text-align: center;
+    margin-bottom: 10px;
+}
+#links {
+    border-right: 1px solid grey;
+    margin-left: 300px;
+    width: 200px;
+    float: left;
+}
+#social_media {
+    display: inline-block;
+    width: 180px;
+    padding: 0 15px 0 15px;
+    border-right: 1px solid grey;
+    height: 140px;
+}
+#social_media img {
+    margin-top: 10px;
+}
+#copyrights {
+    font-size: 10px;
+    color: grey;
 }
 footer ol {
     list-style-type: disc;
     margin: 0;
     display: inline-block;
+    padding: 5px;
 }
 footer a {
     text-decoration: none;
@@ -346,4 +366,8 @@ footer a :hover {
 }
 footer a :active {
     color: rgb(15, 15, 15);
+}
+footer img {
+    width: 30px;
+    height: 30px;
 }
